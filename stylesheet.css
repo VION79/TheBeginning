@@ -1,0 +1,35 @@
+body {
+    color: red;
+    font-family: verdana, arial, geneva, arial black;
+    font-weight: normal;
+
+}
+
+h1 {
+    color: black;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+h2 {
+    color: blue;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.blue { 
+    color: blue;
+
+    font-family: Helvetica;
+}
+
+.underline { 
+    text-decoration: underline;
+}
+
+p.green { 
+    color: purple;
+
+    font-size: 25px;
+    font-family: Helvetica;
+}

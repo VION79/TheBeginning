@@ -1,6 +1,5 @@
 body {
     background-color: antiquewhite;
-    color: black;
     font-family: verdana, arial, geneva, arial black;
     font-weight: normal;
     margin-left: 1px;
@@ -9,7 +8,7 @@ body {
 }
 
 h1 {
-    color: black;
+    color: orange;
     background-color: khaki;
     padding-left: 0px;
     border-color: black;
@@ -22,7 +21,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: orangered;
     background-color: aqua;
     padding: 10px 5px 10px 5px;
     border: 1px solid black;
@@ -39,9 +38,9 @@ h3 {
 .underline { 
     text-decoration: underline;
 }
-p.para1 {
-    color: purple;
-    font-size: 25px;
+.mainpara {
+    color: red;
+    font-size: 15px;
     line-height: 1.5em;
     background-color: aqua;
     padding: 20px 20px 20px 20px;
@@ -51,7 +50,18 @@ p.para1 {
     text-align: center;
     
 }
-p.para2 {
+#para1 {
+    color: blue;
+    font-size: 15px;
+    line-height: 1em;
+    background-color: gray;
+    padding: 20px 20px 20px 50px;
+    border: black 3px solid;
+    text-align: left;
+    background-image: url(bgimage.jpg);    
+
+}
+#para3 {
     color: blue;
     font-size: 15px;
     line-height: 1em;

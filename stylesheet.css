@@ -4,7 +4,6 @@ body {
     font-weight: normal;
     margin-left: 1px;
     margin-right: 1px;
-    
 }
 
 h1 {
@@ -18,7 +17,6 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
-
 }
 
 h2 {
@@ -34,12 +32,12 @@ h3 {
     background-color: wheat;
     padding: 50px 5px 50px 5px;
     border: 1px solid black;
-
 }
 
 .underline { 
     text-decoration: underline;
 }
+
 .mainpara {
     color: red;
     font-size: 15px;
@@ -50,21 +48,21 @@ h3 {
     border-width: 3px;
     border-style: solid;
     text-align: center;
-    
 }
+
 #para1 {
-    color: blue;
+    color: white;
     font-size: 15px;
     line-height: 1em;
     background-color: gray;
     padding: 20px 20px 20px 50px;
     border: black 3px solid;
     text-align: left;
-    background-image: url(bgimage.jpg);    
-
+    background-image: url(bgimage.jpg);
 }
+
 #para3 {
-    color: blue;
+    color: white;
     font-size: 15px;
     line-height: 1em;
     background-color: gray;
@@ -72,8 +70,8 @@ h3 {
     border: black 3px solid;
     text-align: left;
     background-image: url(bgimage.jpg);    
-
 }
+
 .imagec {
     display: block;
     margin-top: 10px;
@@ -83,22 +81,22 @@ h3 {
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 #maindiv{
-        color:;
-        font-size:;
-        line-height:;
-        background-color: rgb(221, 217, 217);
-        padding: 20px 20px 20px 20px;
-        border: black 2px solid;
-        text-align: center;
-        background-image: ;
-        margin-top: 20px;
-        margin-bottom: 10px;
+    color:;
+    font-size:;
+    line-height:;
+    background-color: rgb(221, 217, 217);
+    padding: 20px 20px 20px 20px;
+    border: black 2px solid;
+    text-align: center;
+    background-image: ;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
 #seconddiv{
     color:;
     font-size:;
@@ -111,6 +109,7 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 #thirddiv{
     color:;
     font-size:;
@@ -123,3 +122,9 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.highlight {
+    color: brown;
+    background-color: yellow;
+}
+

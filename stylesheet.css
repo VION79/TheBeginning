@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: orange;
+    color: blue;
     background-color: khaki;
     padding-left: 0px;
     border-color: black;
@@ -17,14 +17,16 @@ h1 {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
 
 }
 
 h2 {
-    color: orangered;
+    color: blue;
     background-color: aqua;
     padding: 10px 5px 10px 5px;
     border: 1px solid black;
+    text-align: center;
 }
 
 h3 {
@@ -83,4 +85,41 @@ h3 {
     border-style: solid;
     padding: 10px;
     
+}
+
+#maindiv{
+        color:;
+        font-size:;
+        line-height:;
+        background-color: rgb(221, 217, 217);
+        padding: 20px 20px 20px 20px;
+        border: black 2px solid;
+        text-align: center;
+        background-image: ;
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+#seconddiv{
+    color:;
+    font-size:;
+    line-height:;
+    background-color: rgb(221, 217, 217);
+    padding: 20px 20px 20px 20px;
+    border: black 2px solid;
+    text-align: center;
+    background-image: ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#thirddiv{
+    color:;
+    font-size:;
+    line-height:;
+    background-color: rgb(221, 217, 217);
+    padding: 20px 20px 20px 20px;
+    border: black 2px solid;
+    text-align: center;
+    background-image: ;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

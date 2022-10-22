@@ -79,6 +79,17 @@ h4 {
     background-image: url(bgimage.jpg);    
 }
 
+#para4 {
+    color: white;
+    font-size: 20px;
+    line-height: 1em;
+    background-color: gray;
+    padding: 20px 20px 20px 50px;
+    border: black 3px solid;
+    text-align: left;
+    background-image: ;    
+}
+
 .imagec {
     display: block;
     margin-top: 10px;
@@ -148,14 +159,15 @@ h4 {
     background-color: yellow;
 }
 
-<a> :link {
+
+a:link {
     color: orange;
 }
 
-a: visited {
-    color: gray;
+a:visited {
+    color: white;
 }
 
-a: hover {
+a:hover {
     color: yellow;
 }

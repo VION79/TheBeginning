@@ -194,12 +194,15 @@ a:hover {
 .menues {
     background-color: gray;
     color: black;
-}
+    }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 ul li a {
@@ -217,4 +220,5 @@ ul li a {
     border-style: solid;
     height: 25px;
     line-height: 25px;
+    
 }

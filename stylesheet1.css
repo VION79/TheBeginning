@@ -1,0 +1,9 @@
+/* Remember all the styling in the body is inherited by the child elements within the body html*/
+
+body {
+    background-color: grey;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+}

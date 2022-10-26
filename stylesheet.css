@@ -211,7 +211,7 @@ ul li a {
     background-color: blue;
     color: white;
     display: block;
-    width: 80px;
+    width: 150px;
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -242,10 +242,11 @@ ul li a:hover {
 
 #nav {
     background-color: darkgreen;
-    height: 35px;
+    height: 60px;
     font-size: 25px;
     font-weight: bold;
     font: Tahoma;
+    
 }
 
 #nav ul {
@@ -253,12 +254,14 @@ ul li a:hover {
     margin: 0;
     list-style-type: none;
     text-align: center;
+    
 }
 
 #nav li {
     display: inline;
     padding: 15px;
     vertical-align: middle;
+    
 }
 
 #nav a {
@@ -274,5 +277,45 @@ ul li a:hover {
     background-color: white;
     border-radius: 5px;
 }
+
+.button {
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 700 13px Helvetica,Arial;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+    
+}
+
+#b1 {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+
+}
+#b2 {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+
+}
+#b3 {
+    position: fixed;
+    top: 200px;
+    right: 20px;
+
+}
+#b4 {
+    position: fixed;
+    top: 250px;
+    right: 20px;
+
+}
+
 
 

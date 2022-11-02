@@ -1,5 +1,6 @@
 /* Remember all the styling in the body is inherited by the child elements within the body html*/
 
+/* ==================== LAYOUT SECTION BEGIN ======================*/
 body {
     background-color: grey;
     margin: 0px;
@@ -16,14 +17,37 @@ body {
 
 }
 
-#navbar {
-    background-color: #5c755e;
+#navbar ul {
+    padding: 5px;
+    background-color: #000;
+    /*list-style-type: none; attribute gets rid of the bullet points ====*/
+    list-style-type: none;
+    text-align: center;
     margin: 10px;
-    height: 35px;
+    height: none;
     border-radius: 5px;
 
 }
 
+#navbar ul li {
+    display: inline;
+
+}
+
+#navbar ul li a {
+    /*text-decoration: none; gets rid of the underlines*/
+    text-decoration: none;
+    font-family: arial;
+    padding: .2em 1em;
+    color: #fff;
+    /*background-color: #000; This color is chosen to match the #navbar ul background-color*/
+    background-color: #000;
+}
+/* #navbar ul li a:hover{} = Make sure that there is no space between a: & hover a:hover vs. a: hover */
+#navbar ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
 .main {
     background-color: #e5e4d7;
     margin-top: 10px;
@@ -37,6 +61,18 @@ body {
 
 }
 
+#footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+}
+
+/* ==================== LAYOUT SECTION END ======================*/
+
+/* ==================== HEADINGS SECTION START ======================*/
+
 h1 {
     font-size: 120%;
     color: #ce282e;
@@ -47,6 +83,27 @@ h2 {
     font-size: 105%;
     color: darkblue;
 }
+
+h3 {
+    font-size: 250%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Centry Gothic", "Gill Sans", Arial, sans serif;
+    /*h3 inherited the margin setting of #header. Setting the margin to 0 will offset this*/
+    margin: 0px;
+
+        /*Below is the code to verical center in css*/
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
+
+/* ==================== HEADINGS SECTION END ======================*/
+
+/* ==================== SIDEBAR SECTION BEGIN ======================*/
 
 /*The sidebar is out of the flow. The brower will load above first or in a topdown order until it gets
 to the sidebar. Hence I will place the sidebar code right before <div class="main">. And the browser
@@ -88,10 +145,6 @@ would load the <div class="sideright" first and then <div class="main". */
 
 }
 
-#footer {
-    background-color: #5c755e;
-    margin: 10px;
-    height: 60px;
-    border-radius: 5px;
-    clear: both;
-}
+/* ==================== SIDEBAR SECTION END ======================*/
+
+

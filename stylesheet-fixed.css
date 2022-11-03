@@ -1,0 +1,195 @@
+/* Remember all the styling in the body is inherited by the child elements within the body html*/
+
+/* ==================== LAYOUT SECTION BEGIN ======================*/
+
+body {
+    background-color: grey;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+}
+
+#header {
+    background-color: #5c755e;
+    margin: 10px; /*This allocates a gutter*/
+    height: 90px;
+    border-radius: 5px;
+
+}
+
+#navbar ul {
+    padding: 5px;
+    background-color: #000;
+    /*list-style-type: none; attribute gets rid of the bullet points ====*/
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    height: none;
+    border-radius: 5px;
+
+}
+
+#navbar ul li {
+    display: inline;
+
+}
+
+#navbar ul li a {
+    /*text-decoration: none; gets rid of the underlines*/
+    text-decoration: none;
+    font-family: arial;
+    padding: .2em 1em;
+    color: #fff;
+    /*background-color: #000; This color is chosen to match the #navbar ul background-color*/
+    background-color: #000;
+}
+/* #navbar ul li a:hover{} = Make sure that there is no space between a: & hover a:hover vs. a: hover */
+#navbar ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.main {
+    background-color: #e5e4d7;
+    margin-top: 10px;
+    /*320px margin size is determined by 260+20*2+10*2 from the .sideright css below*/
+    margin-right: 320px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+
+}
+
+#footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    /*The font-size inherits the body font-size of 14px. We are setting it at 90%*/
+    font-size: 90%;
+    
+}
+
+#footer ul {
+    padding: 5px;
+    background-color: none;
+    /*list-style-type: none; attribute gets rid of the bullet points ====*/
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    height: none;
+    border-radius: 5px;
+
+}
+
+#footer ul li {
+    display: inline;
+
+}
+
+#footer ul li a {
+    /*text-decoration: none; gets rid of the underlines*/
+    text-decoration: none;
+    font-family: arial;
+    padding: .2em 1em;
+    color: #efe5d0;
+    /*background-color: #000; This color is chosen to match the #footer ul background-color*/
+    background-color: #5c755e;
+}
+/* #footer ul li a:hover{} = Make sure that there is no space between a: & hover a:hover vs. a: hover */
+#footer ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#container {
+    width: 968px;
+    margin: 0px auto;
+}
+
+/* ==================== LAYOUT SECTION END ======================*/
+
+/* ==================== HEADINGS SECTION START ======================*/
+
+h1 {
+    font-size: 120%;
+    color: #ce282e;
+
+}
+
+h2 {
+    font-size: 105%;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 250%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Centry Gothic", "Gill Sans", Arial, sans serif;
+    /*h3 inherited the margin setting of #header. Setting the margin to 0 will offset this*/
+    margin: 0px;
+
+        /*Below is the code to verical center in css*/
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
+
+/* ==================== HEADINGS SECTION END ======================*/
+
+/* ==================== SIDEBAR SECTION BEGIN ======================*/
+
+/*The sidebar is out of the flow. The brower will load above first or in a topdown order until it gets
+to the sidebar. Hence I will place the sidebar code right before <div class="main">. And the browser
+would load the <div class="sideright" first and then <div class="main". */
+.sideright {
+    background-color: #e5e4d7;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    float: right;
+    width: 260px;
+    clear: right;
+}
+
+.imagesidebar {
+    background-color: none;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: none;
+    font-size: none;
+    float: right;
+    /* The width is now 300px instead of 260px as we set the padding to 0 from 20. */
+    width: 300px;
+    clear: right;
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagesidebar:hover {
+    
+    opacity: 0.4;
+
+}
+
+/* ==================== SIDEBAR SECTION END ======================*/
+
+

@@ -21,7 +21,7 @@ var name2="Sarah is a local Variable";                          //local variable
 If I want the var to be treated like a local I must put var in front of the variable. Otherwise it would be
 treated like a global var*/
 
-document.write(name);                   
+document.write(name2);                   
 
 /* If I want to document.write local var name2, I must place the code inside the function.*/
 
